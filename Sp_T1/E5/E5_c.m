@@ -9,7 +9,7 @@ Fc = 20;  %frecventa semnalului cosinusoidal
 t = 0:0.001:0.2; %ales potrivit pentru ambele frecvente
 
 s = 2*sin(2*pi*Fs*t);
-c = 2*sin(2*pi*Fc*t); % am ales amplitudinea asemenea semnalului sinusoidal
+c = 2*cos(2*pi*Fc*t); % am ales amplitudinea asemenea semnalului sinusoidal
 
 plot(t,s),grid;
 hold on;
