@@ -1,0 +1,7 @@
+###########################################
+Giurca Madalin Stefan, 424C, ETTI
+
+	Descompunerea unui semnal conform Seriei Fourier consta in reprezentarea
+lui sub forma unei sume. Folosind un numar de coeficienti suficient, 50, calculati pe baza teoriei studiate, s-a putut reconstrui semnalul cu o eroare suficient de mica. Un numar mai mic de coeficienti dau nastere unor deformari ale semnalului, iar pentru un numar care tinde la infinit semnalul este, teoretic, identic cu semnalul initial.
+
+############################################
