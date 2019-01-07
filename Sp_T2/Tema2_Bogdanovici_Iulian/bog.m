@@ -20,3 +20,13 @@ Ak(1) = 2*abs(Co);
 semnal_nou = semnal_nou + 0.5;
 subplot(2,1,1), plot(t,x), hold on, plot(t,semnal_nou), title('Semnal initial si semnal reconstruit');
 subplot(2,1,2), stem([1:51],Ak), title('Spectru Amplitudini');
+
+%Conform cursului de SS, teoria seriilor Fourier (trigonometrica, armonica si complexa) ne spune
+%ca orice semnal periodic poate fi aproximat printr-o suma infinita de sinusuri
+%si cosinusuri de diferite frecvente, fiecare ponderat cu un anumit coeficient. 
+%Acesti coeficienti reprezinta practic spectrul (amplitudinea pentru anumite frecvente).
+%Semnalul reconstruit foloseste un numar finit de termeni(N=50 in tema) si se apropie ca
+%forma de semnalul original, insa prezinta o marja de eroare. Cu cat marim
+%numarul de coeficienti ai SF, aceasta marja de eroare va fi din ce in ce mai
+%mica. In plus se observa faptul ca semnalul poate fi aproximat printr-o
+%suma de sinusoide, variatiile semnalului prezentand un caracter sinusoidal.
